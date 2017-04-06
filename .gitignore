@@ -1,0 +1,18 @@
+# App artifacts
+/_build
+/db
+/deps
+/*.ez
+erl_crash.dump
+/node_modules
+/priv/static/
+/config/prod.secret.exs
+
+### Elixir ###
+/cover
+*.beam
+
+### Phoenix ###
+_build/
+/rel
+

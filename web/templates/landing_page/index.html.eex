@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <h1>URL Shortener</h1>
+
+    <p>A service for shortening your url.</p>
+    <form>
+      </br>
+      <input method="post" type="text" name="url_to_shorten" placeholder="Paste url to shorten here">
+      <input type="submit" value="Shorten">
+    </form>
+
+  </body>
+</html>
