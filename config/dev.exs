@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :url_shortener, UrlShortener.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "daisymolving",
-  password: System.get_env("POSTGRES-PASSWORD"),
+  password: System.get_env("POSTGRES_PASSWORD"),
   database: "url_shortener_dev",
   hostname: "localhost",
   pool_size: 10
